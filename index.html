@@ -1,0 +1,88 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<title>DOM calculator</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<table class="calculator">
+			<tr>
+				<td colspan="3"><input class="display-box" type="text" id="result" disabled /></td>
+
+				<td>
+					<input class="button" type="button" id="c" value="C" style="background-color: #fb0066" />
+				</td>
+			</tr>
+			<tr>
+				<td><input class="button" id="bt1" type="button" value="1" /></td>
+				<td><input class="button" id="bt2" type="button" value="2" /></td>
+				<td><input class="button" id="bt3" type="button" value="3" /></td>
+				<td>
+					<input
+						class="button"
+						id="bt/"
+						type="button"
+						value="/"
+						style="background-color: rgb(241, 241, 109); color: black"
+					/>
+				</td>
+			</tr>
+			<tr>
+				<td><input class="button" id="bt4" type="button" value="4" /></td>
+				<td><input class="button" id="bt5" type="button" value="5" /></td>
+				<td><input class="button" id="bt6" type="button" value="6" /></td>
+				<td>
+					<input
+						class="button"
+						id="bt-"
+						type="button"
+						value="-"
+						style="background-color: rgb(241, 241, 109); color: black"
+					/>
+				</td>
+			</tr>
+			<tr>
+				<td><input class="button" id="bt7" type="button" value="7" /></td>
+				<td><input class="button" id="bt8" type="button" value="8" /></td>
+				<td><input class="button" id="bt9" type="button" value="9" /></td>
+				<td>
+					<input
+						class="button"
+						id="bt+"
+						type="button"
+						value="+"
+						style="background-color: rgb(241, 241, 109); color: black"
+					/>
+				</td>
+			</tr>
+			<tr>
+				<td><input class="button" id="bt." type="button" value="." /></td>
+				<td><input class="button" id="bt0" type="button" value="0" /></td>
+				<td>
+					<input
+						class="button"
+						id="bt="
+						type="button"
+						value="="
+						style="background-color: rgb(63, 161, 63)"
+					/>
+				</td>
+				<td>
+					<input
+						class="button"
+						id="bt*"
+						type="button"
+						value="*"
+						style="background-color: rgb(241, 241, 109); color: black"
+					/>
+				</td>
+			</tr>
+		</table>
+		<script type=" text/javascript" src="app.js"></script>
+	</body>
+</html>
